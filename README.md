@@ -17,16 +17,6 @@ CROSS implementa un Order Book Client-Server per la gestione degli scambi BTC/US
 - In caso di timeout o terminazione del Server, il Client riceve codice 999 e si chiude.
 - Il Client comunica la propria porta UDP al Server per notifiche efficienti.
 
-## Struttura del Codice
-
-cross/
-├── config/ # File di configurazione server e client
-├── cross.server/ # Logica lato Server
-├── cross.client/ # Logica lato Client
-├── order/ # Classi per LimitOrder, MarketOrder, StopOrder
-├── orderbook/ # Gestione Orderbook e ordini stop
-├── user/ # Gestione utenti
-├── utilities/ # Helper (notifiche, console, socket, trade)
 
 
 ### Principali Classi Server
