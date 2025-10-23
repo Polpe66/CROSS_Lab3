@@ -97,14 +97,19 @@ help
 > Inserisci password: ********  
 > insertLimitOrder <ask/bid> <size> <price>  
 
-# Comandi CLI Principali
+# Comandi CLI 
 register <username> <password>  
 login <username> <password>  
-insertLimitOrder <ask/bid> <size> <price>  
-cancelOrder <orderID>  
-getPriceHistory <mese>  
+logout  
 updateCredentials <nuova_password>  
-exit  
+insertLimitOrder <ask/bid> <size> <price>  
+insertMarketOrder <ask/bid> <size>  
+insertStopOrder <ask/bid> <size> <stopPrice>  
+cancelOrder <orderID>  
+getCurrentPrice  
+getPriceHistory <mese>  
+help  
+exit   
 
 # Autore
 Francesco Polperio, Matricola 635406
