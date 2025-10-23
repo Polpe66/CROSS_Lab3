@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="CROSS_Polperio_635406">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ClientMain.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ServerMain.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
