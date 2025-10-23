@@ -88,23 +88,23 @@ java -jar Server.jar
 java -jar Client.jar
 
 # Tipica interazione Client
-> Connessione Avviata con il server 127.0.0.1 sulla porta 8080
-> Inserisci operazione (help per vedere le operazioni disponibili):
-help
-> Operazioni disponibili: login, register, updateCredentials, getCurrentPrice, exit
-> login
-> Inserisci username: fra
-> Inserisci password: ********
-> insertLimitOrder <ask/bid> <size> <price>
+> Connessione Avviata con il server 127.0.0.1 sulla porta 8080  
+> Inserisci operazione (help per vedere le operazioni disponibili):  
+help  
+> Operazioni disponibili: login, register, updateCredentials, getCurrentPrice, exit  
+> login  
+> Inserisci username: fra  
+> Inserisci password: ********  
+> insertLimitOrder <ask/bid> <size> <price>  
 
 # Comandi CLI Principali
-register <username> <password>
-login <username> <password>
-insertLimitOrder <ask/bid> <size> <price>
-cancelOrder <orderID>
-getPriceHistory <mese>
-updateCredentials <nuova_password>
-exit
+register <username> <password>  
+login <username> <password>  
+insertLimitOrder <ask/bid> <size> <price>  
+cancelOrder <orderID>  
+getPriceHistory <mese>  
+updateCredentials <nuova_password>  
+exit  
 
 # Autore
 Francesco Polperio, Matricola 635406
