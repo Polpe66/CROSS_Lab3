@@ -112,7 +112,7 @@ help
 exit   
 
 # Autore
-Francesco Polperio, Matricola 635406
+Francesco Polperio 
 Corso: Laboratorio 3
 Anno Accademico: 2024/25
 
@@ -252,7 +252,6 @@ exit
 Author
 
 Francesco Polperio
-Student ID: 635406
 Course: Laboratory 3
 Academic Year: 2024/25
 
